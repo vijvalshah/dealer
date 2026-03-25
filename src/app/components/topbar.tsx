@@ -1,4 +1,4 @@
-import { Bell, Search, User } from 'lucide-react';
+import { Bell, Search } from 'lucide-react';
 
 export function Topbar() {
   return (
@@ -25,8 +25,8 @@ export function Topbar() {
             <p className="text-[14px] font-medium text-[#1F2937]">Admin User</p>
             <p className="text-[12px] text-[#6B7280]">admin@ceramics.com</p>
           </div>
-          <div className="w-10 h-10 bg-[#2563EB] rounded-full flex items-center justify-center">
-            <User size={20} className="text-white" />
+          <div className="w-10 h-10 bg-[#2563EB] rounded-full flex items-center justify-center overflow-hidden">
+            <img src="/icon.png" alt="User icon" className="h-10 w-10 object-cover" />
           </div>
         </div>
       </div>

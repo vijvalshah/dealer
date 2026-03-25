@@ -1,5 +1,5 @@
 import { FormEvent, useState } from 'react';
-import { AlertCircle, Loader2, ShieldCheck } from 'lucide-react';
+import { AlertCircle, Loader2 } from 'lucide-react';
 import { useNavigate } from 'react-router';
 import { Alert } from '@/app/components/ui/alert';
 import { Button } from '@/app/components/ui/button';
@@ -44,8 +44,8 @@ export function LoginPage() {
         <Card className="w-full border-[#DBEAFE] bg-white/95 shadow-2xl backdrop-blur">
           <div className="p-8">
             <div className="mb-8 text-center">
-              <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#2563EB] text-white shadow-lg shadow-blue-600/30">
-                <ShieldCheck className="h-8 w-8" aria-hidden="true" />
+              <div className="mx-auto mb-4 h-16 w-16 overflow-hidden rounded-2xl bg-[#2563EB] shadow-lg shadow-blue-600/30">
+                <img src="/icon.png" alt="Somany icon" className="h-full w-full object-cover" />
               </div>
               <h1 className="mb-1 text-[24px] font-semibold text-[#111827]">Lead Discovery Dashboard</h1>
               <p className="text-sm text-[#6B7280]">Sign in to access your account</p>

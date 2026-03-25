@@ -13,7 +13,10 @@ export function Sidebar() {
   return (
     <div className="w-64 bg-white border-r border-[#E5E7EB] h-screen flex flex-col">
       <div className="p-6 border-b border-[#E5E7EB]">
-        <h1 className="text-[#1F2937]">Dealer Intelligence Platform</h1>
+        <div className="flex items-center gap-3">
+          <img src="/icon.png" alt="Platform icon" className="h-8 w-8 rounded-md object-cover" />
+          <h1 className="text-[#1F2937]">Dealer Intelligence Platform</h1>
+        </div>
       </div>
       
       <nav className="flex-1 p-4">
